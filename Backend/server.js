@@ -105,29 +105,7 @@ app.delete('/delete/:id', async (req, res) => {
     }
 });
 
-// New Data Routes
-import Data from './models/dataModel.js';
-
-// Create new data
-app.post('/api/data', async (req, res) => {
-    try {
-        const data = await Data.create(req.body);
-        res.status(201).json(data);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-});
-
-// Get all data
-app.get('/api/data', async (req, res) => {
-    try {
-        const data = await Data.find();
-        res.json(data);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-});
-
 // Start server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(3000, () => {
+    console.log('Server running on http://localhost:3000');
+});
