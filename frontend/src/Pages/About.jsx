@@ -7,7 +7,7 @@ const About = () => {
 
     return (
         <div>
-            <h1>Hi! {name || 'vimal'}</h1>
+            <h1>Hi! {name || 'Guest'}</h1>
             <nav>
                 <Link to="/state">UseState Example</Link><br />
                 <Link to="/form">Controlled Form</Link><br />

@@ -1,0 +1,41 @@
+DBMS- data base management system
+
+Store an Analyze data
+
+types of DBMS
+
+
+1. Relational Database Management System(sql)
+
+    --(MySQL,PostgresSql,Oracle)
+
+2. Non Relational Database (No Sql)--(MongoDb,FireBase)
+
+-----------------------------------------------------------
+
+
+SQL
+-Tabels (Row and Columns)
+-Schema(Fixed and Predefined)
+
+
+NoSQL
+-Collection (Docuents Which is i JSON Format (key valuye Pairs)
+-Schema (Flexible and Dynamic)
+
+
+------------------------------------------------------------
+
+ACID 
+
+Atomicity -All or Nothing 
+Consistency- Statemust be same before/after the process
+Isolation-Multiple processoccur without interfere
+Durability-after commmit must updated even after system failre
+
+-------------------------------------------------------------
+
+
+
+
+
